@@ -3,6 +3,8 @@
 # Installation
 git clone the repo
 
+install mongodb on linux server.
+
 pip3 install -r requirements.txt
 
 ```bash
