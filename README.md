@@ -1,9 +1,16 @@
 # Welcome to kobi watchTower
 
 # Installation
-git clone the repo
+1. git clone the repo
 
-install mongodb on linux server.
+2. install mongodb on linux server.
+
+3. install shosubgo,subfinder,chaos
+```
+go install github.com/incogbyte/shosubgo@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
+```
 
 pip3 install -r requirements.txt
 
